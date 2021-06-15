@@ -1,0 +1,19 @@
+------------Student Task-------------------
+
+if we want to insert the Student data
+URL : http://localhost:9078/student/all
+
+if we want to edit/update the Student
+URL : http://localhost:9078/student/update
+
+while we are updating we must write the total data otherwise null will be inserted
+
+if we want to get all the student records
+URL : http://localhost:9078/student/all
+
+if we want to delete the student record
+URL : http://localhost:9078/student/delete/{id}
+
+in place of {id} we must intialize the id like
+http://localhost:9078/student/delete/1
+http://localhost:9078/student/delete/2
